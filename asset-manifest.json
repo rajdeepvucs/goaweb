@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/goaweb/static/css/main.9ac16138.css",
+    "main.js": "/goaweb/static/js/main.43e1b76f.js",
+    "static/js/453.0b71bf06.chunk.js": "/goaweb/static/js/453.0b71bf06.chunk.js",
+    "static/media/banner21jpg@2x.png": "/goaweb/static/media/banner21jpg@2x.f72c5a6a09dc0c0c54cf.png",
+    "index.html": "/goaweb/index.html",
+    "main.9ac16138.css.map": "/goaweb/static/css/main.9ac16138.css.map",
+    "main.43e1b76f.js.map": "/goaweb/static/js/main.43e1b76f.js.map",
+    "453.0b71bf06.chunk.js.map": "/goaweb/static/js/453.0b71bf06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ac16138.css",
+    "static/js/main.43e1b76f.js"
+  ]
+}
