@@ -1,0 +1,40 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Adjust height as needed */
+    background-image: url('../../public/banner21jpg@2x.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and transparency */
+  }
+  
+  .banner-content {
+    position: relative;
+    z-index: 1;
+    margin-top: -90px;
+  }
+  
+  .banner h1 {
+    font-size: 48px; /* Adjust font size as needed */
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 24px; /* Adjust font size as needed */
+    margin: 10px 0 0;
+  }
+  

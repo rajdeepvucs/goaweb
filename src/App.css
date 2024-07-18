@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+:root {
+  --text-01: #45413E;
+  --light-01: #F9F9F9;
+  --light-02: #FFFFFF;
+  --brand-01: #DB7F67;
+  --brand-02: #F4CFC6;
+  --card-hover: 0px 4px 24px rgba(0, 0, 0, 0.15);
+  --card-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  --hover-timing: all 0.2s ease;
+  --nav-card-size: 240px;
+
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  scroll-behavior: smooth;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+body {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 500;
+  transition: var(--hover-timing);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  background: var(--light-01);
 
-.App-link {
-  color: #61dafb;
-}
+width: 100vw;
+overflow-x: hidden;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
